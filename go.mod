@@ -1,3 +1,3 @@
-module example.com/fist-app
+module example.com/investment_calculator
 
 go 1.23.4
