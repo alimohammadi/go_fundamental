@@ -12,6 +12,8 @@ func main() {
 	expectedReturnRate := 5.5
 	// var years float64 = 10
 
+	fmt.Scan(&investmentAmount)
+
 	futureValue := investmentAmount * math.Pow((1+expectedReturnRate/100), years)
 
 	futureRealValue := futureValue / math.Pow(1+inflationRate/100, years)
