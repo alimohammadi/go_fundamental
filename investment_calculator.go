@@ -19,7 +19,12 @@ func main() {
 
 	futureRealValue := futureValue / math.Pow(1+inflationRate/100, years)
 
-	fmt.Println(futureValue)
+	fmt.Printf("Future value: %v", futureRealValue)
 
-	fmt.Println(futureRealValue)
+	fmt.Println("Future value (adjusted for inflation): ", futureRealValue)
+	outputText("futureRealValue")
+}
+
+func outputText(text string) {
+	fmt.Print("Hellpopppp", text)
 }
